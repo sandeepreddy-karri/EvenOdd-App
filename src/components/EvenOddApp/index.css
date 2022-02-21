@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+
+.button {
+  background-color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 6px;
+}
